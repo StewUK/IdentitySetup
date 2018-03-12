@@ -1,7 +1,7 @@
 # IdentitySetup
 Scripts etc for setting up Identity
 
-'''
+```
 /*
 	SQL DDL scripts generated using
 	
@@ -127,4 +127,4 @@ CREATE TABLE [dbo].[AspNetRoleClaims] (
 GO
 CREATE NONCLUSTERED INDEX [IX_AspNetRoleClaims_RoleId]
     ON [dbo].[AspNetRoleClaims]([RoleId] ASC);
-'''
+```
