@@ -1,4 +1,14 @@
 # IdentitySetup
+
+EF Setup
+
+```
+dotnet ef migrations add InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
+dotnet ef migrations add InitialIdentityServerConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
+
+http://docs.identityserver.io/en/release/quickstarts/8_entity_framework.html
+```
+
 Scripts etc for setting up Identity
 
 ```
